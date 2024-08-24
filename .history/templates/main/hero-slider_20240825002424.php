@@ -8,7 +8,6 @@
                     <?php
                     $args = array(
                         'category_name' => 'main-slider',
-                        'order' => 'DESC',
                         'posts_per_page' => -1
                     );
 
@@ -21,7 +20,7 @@
                         
                         ?>
                         <div class="swiper-slide">
-                            <img src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(  ))); ?>" alt="<?php get_the_title(  ) ?>" class="w-full h-64 md:h-[480px]">
+                            <img src="<?php esc_url(get_the_post_thumbnail_url(get_the_ID(  ))); ?>" alt="" class="w-full h-64 md:h-[480px]">
                         </div>
                         
                             <?php }} ?>

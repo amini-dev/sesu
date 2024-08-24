@@ -372,8 +372,7 @@
     <header class="fixed top-0 z-20 w-full">
         <div class="container mt-2">
             <!-- First navbar -->
-            <div
-                class="flex gap-2 items-center justify-between p-3 shadow-primary rounded-xl bg-white/90 relative z-20 backdrop-blur-lg border-b border-slate-200 w-full dark:border-slate-800 dark:bg-dark-800">
+            <div class="flex gap-2 items-center justify-between p-3 shadow-primary rounded-xl bg-white/90 relative z-20 backdrop-blur-lg border-b border-slate-200 w-full dark:border-slate-800 dark:bg-dark-800">
                 <div class="md:hidden">
                     <button id="sidebar-btn" class="text-2xl dark:text-slate-400">
                         <i class="fa-regular fa-bars"></i>
@@ -469,10 +468,9 @@
                 </div>
             </div>
             <!-- End first navbar -->
-
+            
             <!-- Second navbar -->
-            <div
-                class="second-navbar hidden md:flex gap-2 items-center justify-between p-3 shadow-primary rounded-xl bg-white/80 relative z-10 pt-5 -mt-2 backdrop-blur-lg border-b border-slate-200 mx-8 transition-all duration-300 dark:border-slate-800 dark:bg-dark-800">
+            <div class="second-navbar hidden md:flex gap-2 items-center justify-between p-3 shadow-primary rounded-xl bg-white/80 relative z-10 pt-5 -mt-2 backdrop-blur-lg border-b border-slate-200 mx-8 transition-all duration-300 dark:border-slate-800 dark:bg-dark-800">
                 <ul class="hidden md:flex gap-x-6 text-xs lg:text-base dark:text-slate-200">
                     <li class="relative group">
                         <a href="#"
