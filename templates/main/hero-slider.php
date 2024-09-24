@@ -7,9 +7,11 @@
                     <!-- Slides -->
                     <?php
                     $args = array(
+                        'post_type' => 'post',
                         'category_name' => 'main-slider',
                         'order' => 'DESC',
-                        'posts_per_page' => -1
+                        'posts_per_page' => 4,
+                        'post_status' => 'publish'
                     );
 
                     $query = new WP_Query($args);
@@ -21,7 +23,7 @@
                         
                         ?>
                         <div class="swiper-slide">
-                            <img src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(  ))); ?>" alt="<?php get_the_title(  ) ?>" class="w-full h-64 md:h-[480px]">
+                            <img src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(  ))); ?>" alt="<?php the_title(  ) ?>" class="w-full h-64 md:h-[480px]">
                         </div>
                         
                             <?php }} ?>
